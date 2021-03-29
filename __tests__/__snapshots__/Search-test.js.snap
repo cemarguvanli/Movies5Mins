@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Manually mocking functions renders correctly across screens 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "marginBottom": 32,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "zIndex": 10,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCompleteType="off"
+    autoCorrect={false}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    placeholder="Search movies..."
+    placeholderTextColor="#8E8E93"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "rgba(142,142,147,0.12)",
+        "borderRadius": 12,
+        "fontSize": 16,
+        "fontWeight": "400",
+        "height": 50,
+        "letterSpacing": 0.5,
+        "paddingHorizontal": 24,
+        "paddingRight": 36,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
